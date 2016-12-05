@@ -1,3 +1,4 @@
+# Ben Woodfield
 # So heres the final version where it's wrapped in a function
 # Flip the mixed case characters in a string (eg BaNaNaNa!)
 

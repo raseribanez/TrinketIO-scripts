@@ -1,4 +1,17 @@
-name = 'Mr.Ed'
+# Ben Woodfield
+# This is not the solution itself, but the script I wrote to test the code
+# This will easily merge with the games editor / automated testing
+# Basically just wrap it all into the function they provide
+
+# They asked for a program to FLIP the characters case - so previously
+# I just had to convert ALL characters to upper or lower
+# This time they are mixed case and they have 11 words to test
+# You have to check the state of each character with isupper and islower (true or false)
+# Then flip them - but keeping the punctuation (eg ! and ? or .)
+
+# In the game you don't need ths first line it is just for my own testing
+# And name_list[] has to go into the function
+name = 'BaNaNaNa!!'
 name_list = []
 
 for i in name:
@@ -9,15 +22,15 @@ for i in name:
     else:
         name_list.append(i)
 
+# then instead of print - use 'return' inside your function 
 print (''.join(name_list))
 
- яaѕєя
+
 # A shorter way to do this is:
 name = "bAnAnAnAnAnAnAnA"
 print(''.join(c.lower() if c.isupper() else c.upper() for c in name))
 
-
-
+#  яaѕєя
 
 
 
